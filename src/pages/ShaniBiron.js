@@ -10,7 +10,7 @@ export default function shaniPage() {
         </div>
         <img
           className='pic'
-          src='/shaniPic.jpeg'
+          src='/shanipic.jpeg'
           alt='shani'
         />
 
