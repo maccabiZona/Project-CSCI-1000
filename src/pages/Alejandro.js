@@ -1,12 +1,16 @@
+import Head from 'next/head'
 export default function alejandroPage() {
   return (
+    
     <div className='container'>
-      <title>Website</title>
-      <link rel='icon' href='/favicon.ico' />
+       <Head>
+        <title>Alejandro</title>
+        <link rel='icon' href='/icons8-learning-50.png' />
+      </Head>      
 
       <main>
         <div className='underline'>
-          <h1 className='title'>Hey, I'm Shani. </h1>
+          <h1 className='title'>Hey, I'm Alejandro. </h1>
         </div>
         <img
           className='pic'

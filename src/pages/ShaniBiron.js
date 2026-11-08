@@ -1,8 +1,12 @@
+import Head from "next/head";
+
 export default function shaniPage() {
   return (
     <div className='container'>
-      <title>Website</title>
-      <link rel='icon' href='/favicon.ico' />
+      <Head>
+        <title>Shani</title>
+        <link rel='icon' href='/icons8-learning-50.png' />
+      </Head>
 
       <main>
         <div className='underline'>

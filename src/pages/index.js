@@ -7,28 +7,13 @@ export default function Home() {
     <div className='container'>
       <Head>
         <title>Website</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/icons8-learning-50.png' />
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
-
-        <p className='description'>
-          Get started by editing <code>src/pages/index.js</code> to be your
-          project home page.
-        </p>
-        <p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
+        <h1 className='title'>Our webapp!</h1>
 
         <div className='grid'>
-          <a href='/TomHolland ' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
-          </a>
-
           <a href='/ShaniBiron' className='card'>
             <h3>Shani's About Me Page &rarr;</h3>
             <p>Click here to navigate to Shani's about me page</p>
@@ -170,8 +155,6 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-
-          max-width: 800px;
           margin-top: 3rem;
         }
 
@@ -184,6 +167,7 @@ export default function Home() {
           text-decoration: none;
           border: 1px solid #eaeaea;
           border-radius: 10px;
+          max-width: 415px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
 

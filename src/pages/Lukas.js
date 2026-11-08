@@ -1,12 +1,16 @@
+import Head from "next/head";
+
 export default function lukasPage() {
   return (
     <div className='container'>
-      <title>Website</title>
-      <link rel='icon' href='/favicon.ico' />
+      <Head>
+        <title>Lukas</title>
+        <link rel='icon' href='/icons8-learning-50.png' />
+      </Head>     
 
       <main>
         <div className='underline'>
-          <h1 className='title'>Hey, I'm Shani. </h1>
+          <h1 className='title'>Hey, I'm Lukas. </h1>
         </div>
         <img
           className='pic'
