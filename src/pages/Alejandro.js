@@ -4,13 +4,13 @@ export default function alejandroPage() {
     
     <div className='container'>
        <Head>
-        <title>Alejandro</title>
+        <title>Alejandro Elias page</title>
         <link rel='icon' href='/icons8-learning-50.png' />
       </Head>      
 
       <main>
         <div className='underline'>
-          <h1 className='title'>Hey, I'm Alejandro. </h1>
+          <h1 className='title'>Hey, I'm Alejandro. I like cats and coffee.</h1>
         </div>
         <img
           className='pic'
