@@ -10,7 +10,7 @@ export default function lukasPage() {
 
       <main>
         <div className='underline'>
-          <h1 className='title'>Hey, I'm Lukas. </h1>
+          <h1 className='title'>Hey, I'm Lukas.</h1>
         </div>
         <img
           className='pic'
@@ -19,7 +19,7 @@ export default function lukasPage() {
         />
 
         <p className='description'>
-          Hello I am Lukas...
+          Hey there! My name is Lukas Wilkens Mota and I'm a computer science student at the University of Colorado Boulder. I have a passion for both technology and programming and I'm always looking for new ways to learn and grow in this field. I'm currently learning about C++ and I'm excited to see where this journey takes me. I have a passion for video games and history. 
         </p>
 
         <a className='button' href='/'>
